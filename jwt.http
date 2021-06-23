@@ -1,0 +1,10 @@
+GET http://localhost:3001/accounts
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5nb2N0aGFpIiwiaWF0IjoxNjI0NDUxMTQwLCJleHAiOjE2MjQ0NTEyMDB9.SnzV0qI3dGnvY7thysNbIwRVhWdLzSR5lVHTootAElQ
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username" : "ngocthai"
+}
